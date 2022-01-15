@@ -6,32 +6,6 @@ import (
 	"strconv"
 )
 
-func main() {
-	fmt.Println("******* LEETCODE *******")
-
-	// fmt.Println(findMaxConsecutiveOnes([]int{1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1}))
-
-	// fmt.Println(findNumbers([]int{12, 345, 2, 6, 7896}))
-
-	// fmt.Println(sortedSquares([]int{-4, -1, 0, 3, 10}))
-
-	// duplicateZeros([]int{0, 4, 1, 0, 0, 8, 0, 0, 3})
-
-	// merge([]int{-1, 0, 0, 3, 3, 3, 0, 0, 0}, 6, []int{1, 2, 2}, 3)
-
-	// removeElement([]int{2, 3, 3, 2, 3, 1, 0, 0, 2, 3, 3, 3, 0}, 3)
-
-	// removeDuplicates([]int{1, 1, 2})
-
-	// checkIfExist([]int{7, 1, 14, 11})
-
-	// validMountainArray([]int{0, 1, 2, 1, 2})
-
-	// replaceElements([]int{65, 1})
-
-	moveZeroes([]int{0, 1, 0, 3, 12})
-}
-
 // https://leetcode.com/problems/max-consecutive-ones/
 func findMaxConsecutiveOnes(nums []int) int {
 	var res int = 0

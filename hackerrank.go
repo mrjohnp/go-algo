@@ -111,26 +111,6 @@ func makeArgs(argsInput []string, argsTypes []string) []reflect.Value {
 	return args
 }
 
-func main() {
-	// ...TO-DO...
-	//IMPL: Between Two Sets
-	// var testA []int32 = []int32{2, 3}
-	// var testB []int32 = []int32{2, 4}
-	// GetTotalX(testA, testB)
-
-	// ...TO-DO...
-	// IMPL:
-	// var s [][]int32 = [][]int32{{5, 3, 4}, {1, 5, 8}, {6, 4, 2}}
-	// fmt.Println(formingMagicSquare(s))
-
-	// Test("input.txt", saveThePrisoner, saveThePrisoner)
-
-	// var a []int32 = []int32{3, 4, 5, 7, 8, 10}
-	// var k int32 = 10
-	// var queries []int32 = []int32{1, 2, 0}
-	// circularArrayRotation(a, k, queries)
-}
-
 // Convert 12-hour AM/PM format to military 24-hour time
 // in >> "07:05:45PM"
 // out >> "19:05:45"
